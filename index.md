@@ -21,9 +21,9 @@ Este es mi portafolio donde comparto algunos de mis proyectos, habilidades y exp
 
 ## 🌐 Enlaces a mi página en HTML
 
-[📚 Ver los cursos en mi página web](Curso.html)  
-[⏰ Ver el horario en mi página web](Horario.html)  
-[📋 Ver las asignaturas en mi página web](Asignaturas.html)  
+[📚 Ver los cursos en mi página web](https://nestor-12.github.io/website-NestorMarchese/enlaces/Curso.html)  
+[⏰ Ver el horario en mi página web](https://nestor-12.github.io/website-NestorMarchese/enlaces/Horario.html)  
+[📋 Ver las asignaturas en mi página web](https://nestor-12.github.io/website-NestorMarchese/enlaces/Asignaturas.html)  
 
 ---
 
