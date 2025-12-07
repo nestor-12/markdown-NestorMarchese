@@ -4,25 +4,31 @@ Este es mi portafolio donde comparto algunos de mis proyectos, habilidades y exp
 
 ---
 
-## Tabla de habilidades y datos
+## 📊 Tabla de habilidades y datos
 
-| Habilidad    | Nivel |
-|--------------|-------|
-| HTML         | Avanzado |
-| CSS          | Intermedio |
+| Habilidad    | Nivel     |
+|--------------|-----------|
+| HTML         | 🏆 Avanzado  |
+| CSS          | ⚙️ Intermedio |
 
 ---
 
-## Imagen
+## 🖼️ Imagen
 
 ![foto-icon](https://nestor-12.github.io/website-NestorMarchese/img/casa.jpg)
 
 ---
 
-## Enlace a mi página en HTML
+## 🌐 Enlaces a mi página en HTML
 
-[Ver los cursos en mi página web](Curso.html) 
+[📚 Ver los cursos en mi página web](Curso.html)  
+[⏰ Ver el horario en mi página web](Horario.html)  
+[📋 Ver las asignaturas en mi página web](Asignaturas.html)  
 
-[Ver el horario en mi página web](Horario.html) 
+---
 
-[Ver las asignaturas en mi página web](Asignaturas.html)
+### 💬 ¡Conéctate conmigo!
+
+Si quieres saber más sobre mis proyectos, habilidades o simplemente conversar, ¡no dudes en contactarme!
+
+[📧 Enviar mensaje](mailto:nesmar2@alu.edu.gva.es) 
