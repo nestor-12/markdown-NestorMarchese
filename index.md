@@ -21,6 +21,8 @@ Este es mi portafolio donde comparto algunos de mis proyectos, habilidades y exp
 
 ## Enlace a mi página en HTML
 
-[Ver los cursos en mi página web](Curso.html)
-[Ver el horario en mi página web](Horario.html)
+[Ver los cursos en mi página web](Curso.html) 
+
+[Ver el horario en mi página web](Horario.html) 
+
 [Ver las asignaturas en mi página web](Asignaturas.html)
