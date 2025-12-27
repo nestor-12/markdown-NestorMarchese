@@ -1,0 +1,53 @@
+name: Markdown CI Workflow
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  markdown-check:
+    name: Check Markdown files
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Clonamos el repositorio
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Usamos caché para npm (buena práctica)
+      - name: Cache npm
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
+
+      # 3. Instalamos Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # 4. Instalamos markdownlint
+      - name: Install markdownlint
+        run: npm install -g markdownlint-cli
+
+      # 5. Ejecutamos el linter sobre todos los .md
+      - name: Lint Markdown files
+        run: markdownlint "**/*.md"
+
+      # 6. Generamos un pequeño reporte
+      - name: Generate report
+        run: |
+          echo "Markdown check completed successfully 🚀" > report.txt
+          date >> report.txt
+
+      # 7. Subimos el reporte como artifact
+      - name: Upload report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: markdown-report
+          path: report.txt
